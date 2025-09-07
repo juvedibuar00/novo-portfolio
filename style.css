@@ -135,3 +135,15 @@ footer {
   .social-footer { gap: 15px; }
   .social-footer a div, .contato-card div { width: 45px; height: 45px; }
 }
+
+
+/* Remover underline de todos os links dentro do footer e cards */
+footer a, .contato-card {
+  text-decoration: none; /* Remove sublinhado */
+}
+
+/* Garante que os ícones dentro dos divs também não terão underline */
+footer a div, .contato-card div {
+  text-decoration: none;
+}
+
